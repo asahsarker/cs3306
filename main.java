@@ -2,8 +2,10 @@ public class Main {
 
     public static void main(String[] args){
 
-        Queue newQueue = new Queue(5);
+        Queue newQueue = new Queue(10);
 
+        newQueue.add(5);
+        newQueue.add(5);
         newQueue.add(5);
         newQueue.add(5);
         newQueue.add(5);
