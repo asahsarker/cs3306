@@ -1,11 +1,17 @@
 public class Queue {
 
-    private int[] arr;  
+    private int[] elementArr;  
     private int count;
-    private int front = 0;
+    private int firstElement;
+    private int lastElement;
+    private int capacity;
+
     
-    public Queue() {
-        front = 0;
+    public Queue(int size) {
+        elementArr = new int [size];
+        firstElement = 0;
+        lastElement = -1;
+        capacity= size;
         count = 0;
        
     }
@@ -13,8 +19,11 @@ public class Queue {
     public int size() {
         return count;
     }
-    public int add() {
-        return 0;
+
+    public void add(int queueItem) {
+        lastElement = (lastElement + 1);
+        elementArr[lastElement] = queueItem;
+        count++;
     } 
     
     public int element() {
