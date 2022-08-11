@@ -38,11 +38,29 @@ public class Queue {
     }
 
     public int peek() {
-        return 0;
+
+        if (isEmpty())
+        {
+           System.out.println("Queue overflowing, please remove elements or increase size of queue array");
+           System.exit(-1);
+        }
+
+        return elementArr[firstElement];
     }
 
     public int poll() {
-        return 0;
+         // check for queue underflow
+         if (isEmpty())
+         {
+            System.out.println("Queue overflowing, please remove elements or increase size of queue array");
+            System.exit(-1);
+         }
+  
+         int firstItem = elementArr[firstElement];
+         firstElement = (firstElement + 1) % capacity;
+         count--;
+  
+         return firstItem;
     }
 
     public int remove() {
