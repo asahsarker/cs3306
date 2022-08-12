@@ -12,7 +12,7 @@ public class Main {
         queue.add(4);
         queue.add(5);
 
-        System.out.println("size before removing elements: " + queue.size());
+        System.out.println("size before removing elements: " + queue.size())
 
         do {
             System.out.println(queue.poll());
