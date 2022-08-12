@@ -32,5 +32,8 @@ This project is organised in a folder basis. src folder contains the folders whe
 > To run unit tests 
 - `$ ant junit`
 
+> To backup the project
+- `sh my_backup.sh`
+
 
 
