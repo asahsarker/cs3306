@@ -1,3 +1,5 @@
+package src.main.java.com.cs3306.app;
+
 import java.util.ArrayList;
 import java.util.NoSuchElementException;
 

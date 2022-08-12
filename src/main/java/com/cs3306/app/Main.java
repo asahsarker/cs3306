@@ -1,6 +1,8 @@
+package src.main.java.com.cs3306.app;
+
 public class Main {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         Queue<Integer> queue = new Queue<Integer>();
 
@@ -12,12 +14,12 @@ public class Main {
 
         System.out.println("size before removing elements: " + queue.size());
 
-        do{
-           System.out.println(queue.poll());
-       } while (queue.peek() != null);
+        do {
+            System.out.println(queue.poll());
+        } while (queue.peek() != null);
 
         System.out.println("size after removing elements: " + queue.size());
 
 
     }
-    }
+}
