@@ -8,13 +8,19 @@
 */
 
 package app;
+
 import java.util.ArrayList;
 import java.util.NoSuchElementException;
 
-
+/**
+ * public class Queue which contains all the methods
+ */
 public class Queue<T> {
     private ArrayList<T> queue;
-    
+
+    /**
+     * Class Constructor
+     */
     public Queue() {
         this.queue = new ArrayList<T>();
     }
