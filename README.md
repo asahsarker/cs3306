@@ -1,10 +1,16 @@
 # Asah Asikin CS3306 Repeat CA Project
 
 ## Project Goal 
-The Queue program implements a queue with different methods: ```! peek```, ```! poll```, ```! element```, ```! size```, ```! remove``` & ```! add```. 
+The Queue program implements a queue with different methods: ```peek```, ```poll```, ```element```, ```size```, ```remove``` & ```add```. 
 
 ## Project Organisation 
-This project is organised in a folder called CS3306 
+This project is organised in a folder basis. src folder contains the folders where you can find  the implementation and testing for main task and testing. 
+
+## Branches created while working on project 
+- [x] main 
+- [x] unit-test-branch 
+- [x] build-tools 
+- [x] shell-scripting
 ## Technology stack used in this application
 
 - [x] Java
