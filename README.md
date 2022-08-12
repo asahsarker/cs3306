@@ -1,4 +1,4 @@
-# Asah Asikin CS3306 Repeat CA Project
+# Asah Asikin 119416836 -> CS3306 Repeat CA Project
 
 ## Project Goal 
 The Queue program implements a queue with different methods: ```peek```, ```poll```, ```element```, ```size```, ```remove``` & ```add```. 
