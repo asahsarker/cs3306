@@ -1,4 +1,4 @@
-package src.main.java.com.cs3306.app;
+package app;
 
 import java.util.ArrayList;
 import java.util.NoSuchElementException;
@@ -7,7 +7,7 @@ public class Queue<T> {
     private ArrayList<T> queue;
 
     public Queue(){
-        this.queue = new ArrayList<>();
+        this.queue = new ArrayList<T>();
     }
 
     public int size() {

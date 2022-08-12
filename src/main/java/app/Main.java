@@ -1,4 +1,4 @@
-package src.main.java.com.cs3306.app;
+package app;
 
 public class Main {
 
