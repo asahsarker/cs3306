@@ -2,22 +2,22 @@ public class Main {
 
     public static void main(String[] args){
 
-        Queue newQueue = new Queue(10);
+        Queue<Integer> queue = new Queue<Integer>();
 
-        newQueue.add(12);
-        newQueue.add(5);
-       
+        queue.add(1);
+        queue.add(2);
+        queue.add(3);
+        queue.add(4);
+        queue.add(5);
 
-        int returnItem = newQueue.poll();
-        System.out.println("Removed item " + returnItem);
+        System.out.println("size before removing elements: " + queue.size());
 
-        System.out.println("peek function " + newQueue.peek());
+        do{
+           System.out.println(queue.poll());
+       } while (queue.peek() != null);
+
+        System.out.println("size after removing elements: " + queue.size());
 
 
-
-       
-
-        // System.out.println("The queue size is " + newQueue.size());
-    
-        }
+    }
     }
