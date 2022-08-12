@@ -21,7 +21,7 @@ This project is organised in a folder basis. src folder contains the folders whe
 
 
 
-## To run this application you need follow below steps
+## To run this application you need to follow the below steps
 
 > Clone the application from github using this link:
 - [x] https://github.com/asahsarker/cs3306
